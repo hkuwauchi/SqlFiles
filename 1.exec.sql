@@ -1,15 +1,13 @@
 --param
-declare @table varchar(50)
-set @table = '[Test].[dbo].[User]'
 declare @statements varchar(2048)
 set @statements = ( 
   ''
-+ 'IF OBJECT_ID(''' + @table + ''') IS NOT NULL '
++ 'IF OBJECT_ID(''[Test].[dbo].[User]'') IS NOT NULL '
 + '    BEGIN '
 + '        GOTO Skip '
 + '    END '
 + 'ELSE '
-+ 'CREATE TABLE '+ @table + '( '
++ 'CREATE TABLE [Test].[dbo].[User] ( '
 + '    [Id] [int] NOT NULL, '
 + '    [Name] [varchar](10) NULL, '
 + '    [Note] [text] NULL, '
