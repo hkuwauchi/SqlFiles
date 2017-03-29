@@ -1,3 +1,11 @@
+/*
+description
+一時テーブルを使って、idの一覧を作成する
+author
+
+client
+
+*/
 --sql
 set nocount on 
 create table #t(i int) 

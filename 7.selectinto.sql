@@ -1,3 +1,11 @@
+/*
+description
+ˆêƒe[ƒuƒ‹‚Éì¬‚µ‚½Œ‹‰Ê‚ğæ“¾‚·‚é
+author
+
+client
+
+*/
 --param
 declare @a int
 set @a = '1'

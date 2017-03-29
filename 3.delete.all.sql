@@ -1,3 +1,9 @@
+/*
+description
+ƒe[ƒuƒ‹‚ğíœ‚·‚é
+author
+client
+*/
 --sql
 BEGIN TRY
     BEGIN TRANSACTION

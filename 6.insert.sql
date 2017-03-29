@@ -1,3 +1,9 @@
+/*
+description
+ƒŒƒR[ƒh‚ğ’Ç‰Á‚·‚é
+author
+client
+*/
 --param
 declare @id int
 set @id = '1'

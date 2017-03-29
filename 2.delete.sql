@@ -1,3 +1,9 @@
+/*
+description
+指定したレコードを削除する
+author
+client
+*/
 --param
 declare @id int
 set @id = '1'

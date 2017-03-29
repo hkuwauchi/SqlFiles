@@ -1,3 +1,9 @@
+/*
+description
+SQL‚ğÀs‚·‚é
+author
+client
+*/
 --param
 declare @statements varchar(2048)
 set @statements = ( 
